@@ -7,7 +7,12 @@ const questions = [
     {
         type: 'input',
         message: 'What is the text color for your logo?',
-        name: 'color'
+        name: 'textColor'
+    },
+    {
+        type: 'input',
+        message: 'What is the shape color for your logo?',
+        name: 'shapeColor'
     },
     {
         type: 'list',
